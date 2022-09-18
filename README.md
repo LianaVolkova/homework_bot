@@ -17,9 +17,9 @@
 
 Клонировать репозиторий:
 ```
-git clone git@github.com:LianaVolkova/homework_bot.git
+git clone <название репозитория>
 ```
-Перейдите в папку с проектом
+Перейти в папку с проектом
 
 Создать файл .env и прописать в нем переменные окружения
 
@@ -32,12 +32,12 @@ TELEGRAM_CHAT_ID = ID_чата_в_Telegram
 Установить и активировать виртуальное окружение:
 ```
 python -m venv venv
-
+```
+```
 source venv/Scripts/activate
 ```
 
 Установить зависимости из файла requirements.txt
-
 ``` 
 pip install -r requirements.txt
 ```
