@@ -8,10 +8,9 @@
 - python-telegram-bot
 
 ### Перед запуском проекта необходимо наличие двух токенов и id вашего аккаунта в Telegram:
- - Токен API Yandex.Praktikum - получить токен можно по этой [ссылке](https://oauth.yandex.ru/authorize?response_type=token&client_id=1d0b9dd4d652455a9eb710d450ff456a), если вы являетесь студентом одного из курсов в Yandex.Praktikum
- - Токен вашего Telegram-бота
-    Как создать и получить токен, можно посмотреть [здесь](https://core.telegram.org/bots).
- - ID вашего аккаунта Telegram (для его получения можно воспользоваться одним из этих ботов: [@getmyid_bot](https://t.me/getmyid_bot) 
+ - Токен к API Практикум.Домашка - получить токен можно по этой [ссылке](https://oauth.yandex.ru/authorize?response_type=token&client_id=1d0b9dd4d652455a9eb710d450ff456a)
+ - Токен вашего Telegram-бота - как создать и получить токен, можно посмотреть [здесь](https://core.telegram.org/bots).
+ - ID вашего аккаунта Telegram - для его получения можно воспользоваться одним из этих ботов: [@getmyid_bot](https://t.me/getmyid_bot) 
 или [@userinfobot](https://telegram.me/userinfobot))
 
 ## Как запустить проект
@@ -24,11 +23,11 @@ git clone git@github.com:LianaVolkova/homework_bot.git
 
 Создать файл .env и прописать в нем переменные окружения
 
-PRACTICUM_TOKEN = токен к API сервиса Яндекс.Домашка
+PRACTICUM_TOKEN = токен_к_API_Практикум.Домашка
 
-TELEGRAM_TOKEN = токен Telegram бота
+TELEGRAM_TOKEN = токен_Telegram_бота
 
-TELEGRAM_CHAT_ID = ID чата в Телеграме, куда будут приходить уведомления.
+TELEGRAM_CHAT_ID = ID_чата_в_Telegram
 
 Установить и активировать виртуальное окружение:
 ```
